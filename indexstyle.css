@@ -1,0 +1,24 @@
+*{
+  margin: 3px 3px;
+  padding: 6px;
+  box-sizing: border-box;
+}
+body{ background-size: auto;
+  display: flex;
+  align-content: center;
+  align-self: auto;
+}
+
+.container .logo{ float: left; 
+  border-radius: 25px;
+}
+a { display: flex;
+  height: 30px;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 30px 30px 30px;
+}
+.container .kingslogo{
+  border-radius: 50px;
+  
+}

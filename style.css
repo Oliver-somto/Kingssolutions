@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body { background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: sana-serif;
+  height: 1000px;
+  background-color: rebeccapurple;
+}
+.container{ position: relative;
+  margin-top: 100px;
+  width: 450px;
+  height: auto;
+  background: aliceblue;
+  border-radius: 10px;
+}
+.header{ padding: 20px 40px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #130f40;
+}
+.login_form{ padding: 20px 40px
+}
+.login_form .font{ font-size: 19px;
+  color: #130f40;
+  margin: 5px 0px;
+}
+.login_form input{ height: 30px;
+  width: 350px;
+  padding: 0px 0px;
+  font-size: 18px;
+  outline: none;
+  border: 0px solid aliceblue;
+  border-radius: 5px
+}
+.login_form button{ margin: 45px 0px 30px 0px;
+  height: 45px;
+  width: 365px;
+  font-size: 20px;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  background: #1A237E;
+  border-radius: 3px;
+  border: 1px solid #3949AB;
+  transition: .5s;
+}
+.login_form button:hover{background: darkblue;
+}
+.login_form pin_error{ margin-top: 5px;
+  width: 345px;
+  font-size: 18px;
+  color: #C62828;
+  background: rgba(255,0,0,0.1);
+  text-align: center;
+  padding: 5px 8px;
+  border-radius: 5px;
+  border: 1px solid #EF9A9A;
+  display: none;
+  border-top: 50px;
+  font-weight: bold;
+}
+.container a{ text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  transition-duration: .5s
+}
+.container a:hover{ background: azure;
+}
+.container input{ padding: 5px;
+  border: none;
+  border-bottom: 1px solid rgb(137,137,137);
+  margin-top: 5px;
+}
+label{ padding: 10px 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
